@@ -32,7 +32,7 @@ while i<=n:
     i=i+1
 print("user_score=",user_score)
 print("cpu_score=",cpu_score)
-if cpu_score>=user_score:
+if cpu_score>user_score:
     print("cpu wins")
 elif cpu_score==user_score:
     print("tie")
